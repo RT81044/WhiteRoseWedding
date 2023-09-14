@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Subscription Form</title>
+    <link rel="stylesheet" href="agentsub.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Tilt+Warp&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header >
+        <a href="#" class="logo"><img class="logo"  src="1693737703865.png" alt=""></a>
+         <ul class="navigation">   
+            <li><a href="index.html" class="dt">Register/login</a></li>
+            <li><a href="whiteRose.html#plans" class="dt">Plans</a></li>
+            <li><a href="whiteRose.html#features" class="dt">Features</a></li>
+            <li><a href="whiteRose.html#contact" class="dt">Contact Us</a> </li>
+            <li><a href="whiteRose.html#aboutus" class="dt">About Us</a></li>
+        </ul>
+       </header > 
+       <br><br>
+   <section>
+    <div class="container">
+        <h1>Agent Subscription Form</h1>
+        <form action="submit.php" method="post">
+           
+
+            <label for="agentName">Agent Name:</label>
+            <input type="text" id="agentName" name="agentName" required>
+
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" name="companyName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="duration">Duration:</label>
+            <select id="duration" name="duration">
+                <option value="6 months">6 Months: 8.5% Profit</option>
+                <option value="1 year">1 Year :10% Profit</option>
+            </select>
+            
+            <div class="form-group">
+                <div class="custom-checkbox custom-control">
+                    <input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
+                    <label for="agree" class="custom-control-label">I agree to the <a href="termsandcondition.htm">Terms and Conditions</a></label>
+                    
+                </div>
+            </div>
+
+             <br>
+           <a href="payment.html" class="button">Subscribe</a>
+        </form>
+    </div>
+    </section>
+</body>
+</html>

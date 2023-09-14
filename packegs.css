@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion One', cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background: rgb(247, 247, 239);;
+}
+.containerp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    padding-top: 100px;
+}
+.containerp .cardp{
+    position: relative;
+    min-width: 300px;
+    height: 550px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+      inset -5px -5px 5px rgba(255,255,255,0.5),
+      5px 5px 5px rgba(0,0,0,0.5),
+      -5px -5px 5px rgba(255,255,255,0.5);
+      border-radius: 15px;
+      margin: 30px;
+
+}
+.containerp .cardp .boxp{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    background:rgb(247, 247, 239);;
+    box-shadow: 0 10px  20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.containerp .cardp .boxp .contentpc{
+    padding: 20px;
+    text-align: center;
+}
+.containerp .cardp:hover .boxp{
+    transform: translateY(-50px);
+    box-shadow: 0 10px  40px rgba(0,0,0,0.2);
+    background: rgb(243, 243, 227);
+
+}
+
+.containerp .cardp .boxp .contentpc h2{
+   position: absolute;
+   top: -10px;
+   right: 30px;
+   font-size: 8px;
+   color: rgba(0,0,0,0.05);
+   transition: 0.5s;
+   pointer-events: none ;
+}
+.containerp .cardp:hover .boxp .contentpc h2{
+    color: rgba(0,0,0,0.05);
+}
+.containerp .cardp .boxp .contentpc h3{
+    font-size: 1.8em;
+    color:#777;
+    z-index: 1;
+    transition: 0.5s;
+}
+.containerp .cardp .boxp .contentpc p{
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+.containerp .cardp:hover .boxp .contentpc h3 ,
+.containerp .cardp:hover .boxp .contentpc li
+
+{
+    color: darkorchid;
+    /* text-shadow: 1px 1px 1px  #111; */
+    
+}
+
+.containerp .cardp .boxp .contentpc a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.containerp .cardp:hover .boxp .contentpc a{
+    background: #ff568f;
+
+}
+.details{
+    font-size: 0.78rem;
+    text-align: left;
+    font-family:'Cinzel Decorative';
+    padding-left: 10px;
+    font-weight: 300;
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding : 2px 0px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #fff;
+}
+header .sticky{
+    background: #fff;
+    padding:10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo{
+    width: 120px;
+    height: 95px;
+    padding-left: 30px;
+    
+}
+
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+    padding-right: 40px;
+}
+header .navigation li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color :darkmagenta;
+    font-weight: 300;
+}
+header .sticky .navigation li a{
+    color:#111 ;
+}
+header .navigation li a :hover{
+    color:#ff0157
+}
+.dt{
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+

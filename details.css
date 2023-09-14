@@ -1,0 +1,177 @@
+body{
+    background-color:  rgb(255, 255, 244);
+}
+.get_in_touch{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1) ;
+    padding: 30px;
+    top: 100px;
+    border: #fff;
+    border-radius: 2%;
+    background-color:  rgb(255, 255, 244);
+}
+.get_in_touch .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: darkorchid ;
+    background-color: rgb(255, 255, 244);
+  
+}
+.contact-form .form-field{
+ position: relative ;
+ margin: 32px 0;
+
+}
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: darkorchid ;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color:  rgb(255, 255, 244);
+
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+.contact-form .input-text:focus{
+    outline: none;
+}
+.contact-form .label{
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: darkorchid;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn{
+    display: inline-block;
+    background-color: darkorchid;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+   
+}
+.input-text-date{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: darkorchid ;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    
+
+}
+.input-text-date::after{
+    color: black;
+    
+}
+.input-text-date:focus + .label,
+.input-text-date.not-empty + .label{
+    transform: translateY(-24px);
+    
+}
+ .input-text-date:focus{
+    outline: none;
+  color: black;
+}
+.col-lg-12{
+    display: grid;
+    place-items: center;
+}
+.submit-btn {
+    background-color:darkorchid;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    
+    text-align: center;
+    width: 80px;
+    height: 50pxpx;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.submit-btn:hover {
+    background-color: darkmagenta;
+    text-decoration: none;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding : 2px 0px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #fff;
+}
+header .sticky{
+    background: #fff;
+    padding:10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo{
+    width: 100;
+    height: 100px;
+    padding-left: 30px;
+    
+}
+
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+    padding-right: 40px;
+}
+header .navigation li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color :darkmagenta;
+    font-weight: 300;
+}
+header .sticky .navigation li a{
+    color:#111 ;
+}
+header .navigation li a :hover{
+    color:#ff0157
+}
+.dt{
+    font-size: 1.3em;
+}

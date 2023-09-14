@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 244);
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding-top: 100px;
+}
+.container {
+    max-width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    display: grid;
+    place-content: center;
+    padding-bottom: 30px;
+    border-radius: 4%;
+    color: darkorchid;
+    font-family: 'cursive';
+   /* justify-items: center ;   */
+
+}
+
+h1 {
+    text-align: center;
+    color: darkorchid;
+    font-family: 'Tilt Warp';
+    font-size: 2.5rem;
+    
+}
+label {
+    margin-top: 10px;
+}
+.button {
+    background-color:darkorchid;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+form {
+    /* display: flex; */
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.button:hover {
+    background-color: darkmagenta;
+    text-decoration: none;
+
+}
+input {
+justify-items: center;
+
+
+}
+.btn{
+    justify-content: center;
+    padding-left: 150px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding : 2px 0px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #fff;
+}
+header .sticky{
+    background: #fff;
+    padding:10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo{
+    width: 95px;
+    height: 95px;
+    padding-left: 30px;
+    
+}
+
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+    padding-right: 40px;
+}
+header .navigation li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color :darkmagenta;
+    font-weight: 300;
+}
+header .sticky .navigation li a{
+    color:#111 ;
+}
+header .navigation li a :hover{
+    color:#ff0157
+}
+.dt{
+    font-size: 1.3em;
+}
