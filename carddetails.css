@@ -25,6 +25,7 @@
     box-shadow: 0 10px 15px rgba(0,0,0,.1);
     padding: 20px;
     width: 600px;
+    height:550px;
     padding-top: 160px;
 }
 
@@ -66,6 +67,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: .2s linear;
+  
 }
 
 .container form .submit-btn:hover{
@@ -168,4 +170,8 @@
 .container .card-container .back .box img{
     margin-top: 30px;
     height: 30px;
+}
+.subbt{
+    padding-top: 40px;
+    padding-left: 240px;
 }

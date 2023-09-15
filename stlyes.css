@@ -543,3 +543,16 @@ footer .wave#wave1 {
 .ad1{
     padding-right: 100px;
 }
+.Adv{
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 2.5rem;
+}
+.Adv span{
+    color: #ff0157;
+    font-size: 3rem;
+}
+.trans{
+    padding-left: 550px;
+    padding-top: 100px;
+}
